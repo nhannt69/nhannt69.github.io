@@ -1,0 +1,36 @@
+<div class="selected-work-section">
+  <h2 class="selected-work-heading">Selected Work</h2>
+  <ul class="selected-work-list">
+    {% assign pubs = site.publications | where_exp:"p","p.selected == true" | sort: "date" | reverse %}
+    {% for pub in pubs %}
+    <li class="selected-pub-item">
+      {% if pub.image %}
+      <div class="pub-thumbnail">
+        <img src="{{ pub.image | relative_url }}" alt="{{ pub.title }}" />
+      </div>
+      {% endif %}
+      <div class="pub-card">
+        <div class="pub-badge">{{ pub.type | upcase }}</div>
+        <div class="pub-content">
+          <a class="pub-title" href="{{ pub.permalink | default: pub.url | relative_url }}">{{ pub.title }}</a>
+          <div class="pub-authors">{{ pub.author }}</div>
+          <div class="pub-venue">
+            <em>{{ pub.venue }}</em>{% if pub.date %}, {{ pub.date | date: "%Y" }}{% endif %}
+          </div>
+          <div class="pub-buttons">
+            {% if pub.pdf %}
+            <a class="pub-btn" href="{{ pub.pdf }}">PDF</a>
+            {% endif %}
+            {% if pub.arxiv %}
+            <a class="pub-btn" href="{{ pub.arxiv }}">ARXIV</a>
+            {% endif %}
+            {% if pub.paperurl %}
+            <a class="pub-btn" href="{{ pub.paperurl }}">Paper</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
