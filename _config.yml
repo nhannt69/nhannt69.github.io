@@ -85,9 +85,15 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
+  under_review:
+    title: 'Under Review'
+  submitted:
+    title: 'Submitted'
+  preparation:
+    title: 'In Preparation'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

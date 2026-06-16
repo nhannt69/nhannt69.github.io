@@ -192,6 +192,17 @@
   font-family: "Times New Roman", Times, serif;
 }
 
+/* Publications page listing */
+.archive__item-title a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.95rem;
+}
+
+.archive__item p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.85rem;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .selected-pub-item {
