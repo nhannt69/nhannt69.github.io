@@ -187,12 +187,23 @@
   background-color: rgba(0, 170, 170, 0.18);
 }
 
-/* Page title styling */
-.page__title {
-  font-family: "Times New Roman", Times, serif;
+body.publication-page,
+body.publication-page h1,
+body.publication-page h2,
+body.publication-page h3,
+body.publication-page h4,
+body.publication-page h5,
+body.publication-page h6,
+body.publication-page p,
+body.publication-page li,
+body.publication-page blockquote,
+body.publication-page a,
+body.publication-page span,
+body.publication-page strong,
+body.publication-page em {
+  font-family: "Times New Roman", Times, serif !important;
 }
 
-/* Publications page listing */
 .archive__item-title a {
   font-family: "Times New Roman", Times, serif;
   font-size: 0.95rem;
@@ -201,6 +212,95 @@
 .archive__item p {
   font-family: "Times New Roman", Times, serif;
   font-size: 0.85rem;
+}
+
+/* Talks listing — thumbnail next to each item */
+.archive__item--talk {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.talk-list-teaser {
+  flex-shrink: 0;
+  width: 160px;
+  height: 105px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.talk-list-teaser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.archive__item--talk:hover .talk-list-teaser img {
+  transform: scale(1.05);
+}
+
+.talk-list-body {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 480px) {
+  .archive__item--talk {
+    flex-direction: column;
+  }
+  .talk-list-teaser {
+    width: 100%;
+    height: 160px;
+  }
+}
+
+/* Talk page — photo gallery */
+.talk-photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.talk-photo-card {
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.talk-photo-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.talk-photo-card:hover img {
+  transform: scale(1.03);
+}
+
+.talk-photo-caption {
+  font-size: 0.8rem;
+  color: #999;
+  text-align: center;
+  padding: 0.5rem 0.75rem;
+  margin: 0;
+}
+
+/* Talk page — slides embed */
+.talk-slides-embed {
+  margin: 1.5rem 0;
+}
+
+.talk-slides-caption {
+  font-size: 0.82rem;
+  color: #999;
+  margin-top: 0.5rem;
+  text-align: right;
 }
 
 /* Responsive adjustments */
@@ -217,5 +317,13 @@
 
   .pub-title {
     font-size: 1rem;
+  }
+
+  .talk-photo-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .talk-photo-card img {
+    height: auto;
   }
 }
