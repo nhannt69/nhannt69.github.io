@@ -53,8 +53,8 @@ Activities
 
 2024–present
 
-- **06/2026** — Co-author: new preprint (co-author) with a collaborating team, "A Wearable Device Dataset for Mental Health Assessment Using Laser Doppler Flowmetry and Fluorescence Spectroscopy Sensors" — under review (minor revision). <img src="{{ '/images/new_symbol.png' | relative_url }}" alt="NEW" class="activity-new-symbol" />
-- **05/2026** — First author: new preprint "Scanning Acoustic Image Restoration Using Diffusion for Automatic Reliable Inspection" — under review. <img src="{{ '/images/new_symbol.png' | relative_url }}" alt="NEW" class="activity-new-symbol" />
+- **07/2026** — Co-author: paper accepted at *Communication Medicine - Nature* (IF = 7.4). Many thanks to my research team. <img src="{{ '/images/new_symbol.png' | relative_url }}" alt="NEW" class="activity-new-symbol" />
+- **07/2026** — First author: new preprint "Scanning Acoustic Image Restoration Using Diffusion for Automatic Reliable Inspection" — received Minor Revision decision. <img src="{{ '/images/new_symbol.png' | relative_url }}" alt="NEW" class="activity-new-symbol" />
 - **03/2026** — Presented a summary research report at the BK21 Conference, Pukyong National University.
 - **01/2026** — First author: paper accepted at *IEEE Transactions on Industrial Informatics* (IF = 9.9). Many thanks to my co-authors and collaborators.
 - **10/2025** — First author: paper accepted at *Engineering Applications of Artificial Intelligence* (IF = 8.0). Many thanks to my co-authors and collaborators.
