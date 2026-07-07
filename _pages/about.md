@@ -101,4 +101,12 @@ I write blogs on Viblo and also build a YouTube channel.
 - **Blogs**: [Viblo profile](https://viblo.asia/u/nhan0944)
 - **YouTube**: [Video channel](https://www.youtube.com/watch?v=GJIlMugUQ70&t=37s)
 
+Collaboration
+=======
+
+I am honored to collaborate with outstanding researchers and supervisors:
+
+- **Professor Truong-Son Hy**: from The University of Alabama at Birmingham, Alabama, United States[His profile](https://hytruongson.github.io/HySonLab/)
+- **Mr Dang Khoa Pham**: PhD Candidate at North Carolina Agricultural and Technical State University: Greensboro, North Carolina, United States 
+
 
