@@ -57,8 +57,10 @@ Activities
 - **07/2026** — First author: new preprint "Scanning Acoustic Image Restoration Using Diffusion for Automatic Reliable Inspection" — received Minor Revision decision. <img src="{{ '/images/new_symbol.png' | relative_url }}" alt="NEW" class="activity-new-symbol" />
 - **03/2026** — Presented a summary research report at the BK21 Conference, Pukyong National University.
 - **01/2026** — First author: paper accepted at *IEEE Transactions on Industrial Informatics* (IF = 9.9). Many thanks to my co-authors and collaborators.
+- **12/2025** — Received Blue Scholarship 2025 - BK21 - PKNU
 - **10/2025** — First author: paper accepted at *Engineering Applications of Artificial Intelligence* (IF = 8.0). Many thanks to my co-authors and collaborators.
 - **09/2025** —  Graduated Master's program at Biomedical Department, Pukyong National University (GPA: 4.3/4.5). 
+- **07/2025** — Received FIRE Grant Scholarship 2025-1 - PKNU
 - **07/2025** — Participated in the Mechanical International Exhibition (Daegu, Korea).
 - **06/2025** — Paper accepted at *Applied Sciences* (co-first author). Many thanks to my co-authors and collaborators.
 - **03/2025** — Participated in the IEEE International Conference on Industrial Technology (Wuhan, China).
@@ -106,7 +108,7 @@ Collaboration
 
 I am honored to collaborate with outstanding researchers and supervisors:
 
-- **Professor Truong-Son Hy**: from The University of Alabama at Birmingham, Alabama, United States[His profile](https://hytruongson.github.io/HySonLab/)
+- **Professor Truong-Son Hy**: from The University of Alabama at Birmingham, Alabama, United States [His profile](https://hytruongson.github.io/HySonLab/)
 - **Mr Dang Khoa Pham**: PhD Candidate at North Carolina Agricultural and Technical State University: Greensboro, North Carolina, United States 
 
 
