@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1786063282.46114 "d:/nbmlab/application/personal_website/nhannt69.github.io/resume/main.tex" "main.pdf" "main" 1786063283.02576 0
+["pdflatex"] 1786064340.00025 "d:/nbmlab/application/personal_website/nhannt69.github.io/resume/main.tex" "main.pdf" "main" 1786064340.57282 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm0900.tfm" 993062508 1444 b1efc6b76338296f8076c1701e4660f3 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx9.tfm" 1136765053 1328 5442e22a7072966dbaf88ca900acf3f0 ""
@@ -59,10 +59,10 @@
   "C:/Users/user/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1785289851 178988 78fe3a5c461cc82514bd7c8c8b5fe93a ""
   "C:/Users/user/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk" 1785718993 10472 3f7e25d3fa94886a93cd33a7b2d9baf9 ""
   "C:/Users/user/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1782198645 13323417 08dbac0d4a4b1b076f2ba3eac4881a0d ""
-  "d:/nbmlab/application/personal_website/nhannt69.github.io/resume/main.tex" 1786063281 12380 f209f7899650c24c709f4282071f3e12 ""
-  "main.aux" 1786063282 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "main.out" 1786063282 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1786063281 12380 f209f7899650c24c709f4282071f3e12 ""
+  "d:/nbmlab/application/personal_website/nhannt69.github.io/resume/main.tex" 1786064338 12349 a12df50a64f7105a573400afc621042c ""
+  "main.aux" 1786064340 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "main.out" 1786064340 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1786064338 12349 a12df50a64f7105a573400afc621042c ""
   (generated)
   "main.aux"
   "main.log"
