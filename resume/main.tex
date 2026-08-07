@@ -1,0 +1,205 @@
+%------------------------
+% Latex CV Template for COS Northeastern University Faculty
+% Author: Zoe Kearney
+
+% Formatting: https://www.overleaf.com/latex/templates/coles-resume-template/qhpynjcvjpcj
+
+% Follows: Template Dossier Documents, Office of the Provost, Northeastern; July 1, 2025 version (https://provost.northeastern.edu/faculty-affairs/).
+
+%Disclaimer: This template is intended to complement Northeastern University’s dossier guidelines for tenure and promotion cases, as well as discipline-specific CV standards.
+
+% License: LaTeX Project Public License 1.3c
+%------------------------
+
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=1in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+\usepackage{changepage} %For Indenting
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{0.85\baselineskip}{0.85\baselineskip} % Section title spacing
+\newenvironment{subs} %Indenting
+  {\adjustwidth{2em}{0pt}}
+  {\endadjustwidth}
+
+\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=black}
+
+% Subsection title format
+\titleformat{\subsection}{\normalsize\bfseries\itshape}{}{0em}{}
+\titlespacing*{\subsection}{0pt}{0.8\baselineskip}{0.2\baselineskip}
+
+% CV entry: {role/degree}{date range}
+% Use \entrydetail for each following line of the entry.
+\newcommand{\cventry}[2]{\noindent\textbf{#1}\hfill #2\par}
+\newcommand{\entrydetail}[1]{\noindent #1\par}
+\newenvironment{cvlist}{\begin{list}{}{%
+  \setlength{\leftmargin}{0pt}\setlength{\itemindent}{0pt}%
+  \setlength{\parsep}{0pt}\setlength{\itemsep}{6pt}\setlength{\topsep}{4pt}}}%
+  {\end{list}}
+
+% Author name highlighting in the publication list
+\newcommand{\me}{\textbf{Trong Nhan Nguyen}}
+
+% Publication list: wider gaps between entries, looser leading within an entry
+\usepackage{setspace}
+\newlist{publist}{enumerate}{1}
+\setlist[publist]{label=\arabic*., leftmargin=*, topsep=3pt, itemsep=7pt, parsep=0pt,
+  before=\setstretch{1.12}, after=\setstretch{1.0}}
+
+% Selected publications: title first, then {authors}{venue} on the line below.
+% Currently unused -- kept in case a SELECTED PUBLICATIONS section is added back.
+\newlist{sellist}{enumerate}{1}
+\setlist[sellist]{label=[\arabic*], leftmargin=*, topsep=2pt, itemsep=4pt, parsep=0pt}
+\newcommand{\selvenue}[2]{\par\nopagebreak\small #1.\ #2\par}
+\newcommand{\selq}[1]{\par\nopagebreak\small\textit{Research question:} #1\par}
+
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+    \textbf{\Large TRONG NHAN NGUYEN }\\[3pt] % Name
+    \textbf{Curriculum Vitae}\\[1pt] % CV
+    Busan, South Korea | \href{mailto:nguyennhan8521@gmail.com}{nguyennhan8521@gmail.com} | \href{https://scholar.google.com/citations?user=3y6noxAAAAAJ&hl=en}{Google Scholar} | \href{https://www.linkedin.com/in/trong-nhan-nguyen-b55657173}{LinkedIn} | \href{https://github.com/nhannt69}{GitHub} | \href{https://orcid.org/0009-0005-5281-0261}{ORCID} % Contact info
+\end{center}
+
+%------------------------
+% Education and Employment Section
+\section*{EDUCATION}
+\begin{cvlist}
+    \item
+    \cventry{M.S. in Biomedical Engineering}{Oct. 2023 -- Oct. 2025}
+    \entrydetail{Pukyong National University, Busan 48513, Korea \quad\textbar\quad GPA: 4.3/4.5}
+    \entrydetail{Advisor: Prof. \href{https://scholar.google.com/citations?user=HnYb_PEAAAAJ&hl=ko}{Junghwan Oh}}
+
+    \item
+    \cventry{B.S. in Information Technology Engineering}{Aug. 2018 -- Dec. 2022}
+    \entrydetail{Ho Chi Minh University of Technology, Thu Duc City, Vietnam \quad\textbar\quad GPA: 3.76/4.00}
+    \entrydetail{Advisor: Prof. \href{https://scholar.google.com/citations?user=RA6VhUQAAAAJ}{Hung Nguyen}}
+\end{cvlist}
+
+\smallskip
+\noindent\textbf{English Proficiency:} IELTS 7.5
+
+%------------------------
+% Research Interests Section
+\section*{RESEARCH INTERESTS}
+\noindent Image Restoration, Physics-Informed Neural Networks, Computational Imaging
+
+%------------------------
+% Academic Background Section
+\section*{ACADEMIC BACKGROUND}
+\begin{cvlist}
+    \item
+    \cventry{Research Assistant}{Oct. 2023 -- Present}
+    \entrydetail{Pukyong National University, Busan, Korea}
+    \entrydetail{Topic: Image Restoration, Inspection Pipeline}
+
+    \item
+    \cventry{Research Collaborator}{Present}
+    \entrydetail{University of Alabama at Birmingham, AL, USA}
+    \entrydetail{Collaborator: Prof. \href{https://scholars.uab.edu/19454-truongson-hy}{Truong Son Hy}}
+    \entrydetail{Topic: Frequency-Space Learning for Blind Image Restoration}
+
+    \item
+    \cventry{Undergraduate Research Assistant}{Feb. 2021 -- Mar. 2022}
+    \entrydetail{Ho Chi Minh University of Technology, Vietnam}
+\end{cvlist}
+
+%------------------------
+% Technical Skills Section
+\section*{TECHNICAL SKILLS}
+\begin{itemize}[leftmargin=*, itemsep=1pt, topsep=2pt]
+    \item \textbf{Machine Learning:} Diffusion Models, Transformers, Mamba / State-Space Models, GANs, CNNs; Image Restoration (denoising, super-resolution, inpainting), Segmentation, Physics-Informed Neural Networks.
+    \item \textbf{Frameworks \& Libraries:} PyTorch, Hugging Face (Transformers, Diffusers, Accelerate), Weights \& Biases, OpenCV, scikit-learn, NumPy, Pandas, Matplotlib.
+    \item \textbf{Infrastructure \& Tools:} CUDA, Multi-GPU / Distributed Training (DDP), Slurm, Linux, Git, Docker, SQL.
+    \item \textbf{Programming Languages:} Python, C/C++, JavaScript.
+    \item \textbf{Instrumentation \& Systems:} Scanning Acoustic Microscopy (NDT), Basler cameras, Micro-Epsilon laser sensors, Yaskawa robotic arms, 3D scanners.
+\end{itemize}
+
+%------------------------
+% Publications Section
+\section*{PUBLICATIONS}
+    \noindent
+    \textit{*Co-First Author, **Co-author}
+    \hfill \href{https://scholar.google.com/citations?user=3y6noxAAAAAJ&hl=en}{Google Scholar}
+    \subsection*{Journal and Conference Publications}
+        \begin{publist}
+            \item \me, Vu Hoang Minh Doan, Tan Hung Vo, Dang Khoa Pham, Quoc Dung Nguyen, Truong Tien Vo, Jaeyeop Choi, Junghwan Oh. ``Unsupervised Hybrid Transformer--Mamba Diffusion for Depth-Dependent Image Denoising in Scanning Acoustic Microscopy,'' \textit{IEEE Transactions on Industrial Informatics}, IF = 9.8, 2026. \href{https://doi.org/10.1109/TII.2025.3648838}{DOI}
+            \item \me, Vu Hoang Minh Doan, Tan Hung Vo, Jaeyeop Choi, Junghwan Oh. ``Transformer-Based Super-Resolution Scanning Acoustic Imaging for Industrial Inspection,'' \textit{IEEE International Conference on Industrial Technology (ICIT 2025)}, 2025. \href{https://ieeexplore.ieee.org/document/10965207}{Link}
+            \item \me, Vu Hoang Minh Doan, Tan Hung Vo, Dinh Dat Vu, Le Hai Tran, Thi Thu Ha Vu, Truong Tien Vo, Quoc Dung Nguyen, Sudip Mondal, Jaeyeop Choi, Byeongil Lee, Junghwan Oh. ``Image-enhanced Generative Models for Industrial Scanning Acoustic Super-resolution,'' \textit{Engineering Applications of Artificial Intelligence}, IF = 9.0, 2025. \href{https://doi.org/10.1016/j.engappai.2025.112500}{DOI}
+            \item Thi Thu Ha Vu, Tan Hung Vo, \me*, Jaeyeop Choi, Le Hai Tran, Vu Hoang Minh Doan, Van Bang Nguyen, Wonjo Lee, Sudip Mondal, Junghwan Oh. ``GAN-Based Super-Resolution in Linear R-SAM Imaging for Enhanced Non-Destructive Semiconductor Measurement,'' \textit{Applied Sciences}, IF = 2.5, 2025. \href{https://www.mdpi.com/2076-3417/15/12/6780}{Link}
+            \item Truong Tien Vo, Quy Phuong Le, \me**, Sudip Mondal, Jaeyeop Choi, Byeongil Lee, Junghwan Oh. ``A Non-Contact Ballistocardiogram-Based System with Multi-Task Deep Learning for Real-Time Vital Signs Monitoring in Acupuncture,'' \textit{Computers in Biology and Medicine}, IF = 6.3, 2026. \href{https://doi.org/10.1016/j.compbiomed.2026.111461}{DOI}
+            \item Thi Thu Ha Vu, Tan Hung Vo, \me**, Jaeyeop Choi, Sudip Mondal, Junghwan Oh. ``Optimizing Scanning Acoustic Tomography Image Segmentation With Segment Anything Model for Semiconductor Devices,'' \textit{IEEE Transactions on Semiconductor Manufacturing}, IF = 2.3, 2024. \href{https://ieeexplore.ieee.org/document/10645767}{Link}
+            \item Minh Ngoc Nguyen, Khai Le-Duc, Tan-Hanh Pham, \me**, Trang Nguyen, Quang Minh Luu, Ba Kien Tran, Truong-Son Hy, Viktor Dremin, Sergei Sokolovsky, Edik Rafailov. ``A Wearable Device Dataset for Mental Health Assessment Using Laser Doppler Flowmetry and Fluorescence Spectroscopy Sensors,'' \textit{Communications Medicine -- Nature}, IF = 7.4, 2026. \href{https://arxiv.org/abs/2502.00973}{arXiv}
+        \end{publist}
+    \subsection*{Manuscripts Under Review}
+        \begin{publist}
+            \item \me, Vu Hoang Minh Doan, Tan Hung Vo, Jaeyeop Choi, Junghwan Oh. ``Scanning Acoustic Image Restoration Using Diffusion for Automatic Reliable Inspection,'' \textit{Computers and Electrical Engineering}, IF = 4.9, Under Review.
+            \item Truong Tien Vo, Huu Sang Nguyen, \me**, Le Hai Tran, Quy Phuong Le, Tan Tien Nguyen, Jaeyeop Choi, Junghwan Oh. ``Multimodal Smart Clothing with Haptic Feedback for Real-Time Muscle Activation Assessment in Self-Coaching Fitness,'' \textit{IEEE Internet of Things}, IF = 8.9, Revision.
+            \item \me, Truong Son Hy, Junghwan Oh. ``WaFIR: Wavelet-Fourier Mixture-of-Experts with Subband-Adaptive Routing for Blind All-in-One Image Restoration,'' AAAI Conference on Artificial Intelligence (AAAI), 2027 (under review).
+        \end{publist}
+        % \begin{enumerate}[leftmargin=*, itemsep=3pt, topsep=2pt]
+        %     \item \me, Truong Son Hy, Junghwan Oh. ``WaFIR: Wavelet-Fourier Mixture-of-Experts with Subband-Adaptive Routing for Blind All-in-One Image Restoration,'' AAAI Conference on Artificial Intelligence (AAAI), 2027 (under review).
+        % \end{enumerate}
+
+%------------------------
+% Talks and Presentations Section
+\section*{TALKS \& PRESENTATIONS}
+\begin{cvlist}
+    \item
+    \cventry{IEEE International Conference on Industrial Technology (ICIT)}{2025}
+    \entrydetail{Presented ``Transformer-Based Super-Resolution Scanning Acoustic Imaging for Industrial Inspection.''}
+
+    \item
+    \cventry{Research Seminar, Brain Korea 21 (BK21) Program}{2026}
+    \entrydetail{Presented the annual research summary report, covering ongoing research progress in AI-based industrial inspection and image processing.}
+\end{cvlist}
+
+%------------------------
+% Honors and Awards Section
+\section*{HONORS, AWARDS, AND ACHIEVEMENTS}
+    \begin{itemize}[leftmargin=*, itemsep=0pt, topsep=2pt]
+        \item PKNU Global Scholarship
+        \item Blue Scholarship, Brain Korea 21 (BK21), Korean Government Scholarship Program, 2025, 2026
+        \item Fire Grant Scholarship, 2025, 2026
+        \item Scholarship, Pukyong National University, 2023
+        \item Impressive Award, HUTECT Start-up Wing, 2021
+        \item Consolation Prize, AI Hackathon Contest, Ho Chi Minh University of Technology, 2020
+        \item Rewards of Undergraduate Research, Ho Chi Minh University of Technology, 2020
+        \item Outstanding Undergraduate Student Scholarship, Ho Chi Minh University of Technology, 2018
+    \end{itemize}
+
+%------------------------
+% Service and Professional Development Section
+\section*{SERVICE \& PROFESSIONAL DEVELOPMENT}
+        \noindent
+        \textbf{Peer Reviewer:}
+        \begin{itemize}[leftmargin=*, itemsep=0pt, topsep=2pt]
+            \item IEEE Sensors
+            \item Journal of Infrastructure, Policy and Development
+            \item IEEE International Conference on Industrial Technology
+            \item Machine Vision and Applications
+            \item Annals of Mathematics and Physics
+            \item Discover Artificial Intelligence
+            \item Discover Sensors
+        \end{itemize}
+
+% End document
+\end{document}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
