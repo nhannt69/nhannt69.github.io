@@ -195,6 +195,9 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - resume
+  - _agentbus
+  - .ai
   - vendor
 keep_files:
   - .git
