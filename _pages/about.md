@@ -42,9 +42,9 @@ redirect_from:
 
 Welcome! I am a computer vision researcher developing deep learning methods for image restoration, low-level vision, and AI-driven industrial inspection systems. Currently, I am a Research Assistant at the [Nano Bio Mechanics Lab](https://www.nbmlab.com/), Pukyong National University, South Korea, working under the supervision of [Prof. Junghwan Oh](https://www.nbmlab.com/). At the same time, I am seeking fully funded PhD opportunities in Computer Vision and AI, with an expected start of Spring or Fall 2027.
 
-I earned my M.S. in Industry 4.0 Convergence Bionics Engineering from [Pukyong National University](https://www.pknu.ac.kr/) and my B.S. in Information Technology Engineering from [Ho Chi Minh University of Technology](https://www.hutech.edu.vn/english). My academic work has been [published](your-website/publications) in IEEE Transactions on Industrial Informatics, Engineering Applications of Artificial Intelligence, IEEE Transactions on Semiconductor Manufacturing, and IEEE ICIT, among other venues. Prior to my graduate studies, I worked as an AI Engineer at FPT Software, where I deployed machine learning systems across manufacturing defect detection, pharmaceutical search, and industrial energy optimization.
+I earned my M.S. in Biomedical Engineering from [Pukyong National University](https://www.pknu.ac.kr/) and my B.S. in Information Technology Engineering from [Ho Chi Minh City University of Technology (HUTECH)](https://www.hutech.edu.vn/english). My academic work has been [published]({{ '/publications/' | relative_url }}) in IEEE Transactions on Industrial Informatics, Engineering Applications of Artificial Intelligence, Computers & Electrical Engineering, Communications Medicine, and IEEE ICIT, among other venues. Prior to my graduate studies, I worked as an AI Engineer at FPT Software, where I deployed machine learning systems across manufacturing defect detection, pharmaceutical search, and industrial energy optimization.
 
-I serve as a peer reviewer for IEEE Sensors, IEEE ICIT, Machine Vision and Applications, Journal of Infrastructure Policy and Development, Discover AI, Discover Sensors, and Annals of Mathematics and Physics. My profiles are available on [Google Scholar](https://scholar.google.com/citations?user=3y6noxAAAAAJ&hl=en) and [ORCID](https://orcid.org/0009-0005-5281-0261).
+I serve as a peer reviewer for Scientific Reports, IEEE Sensors, IEEE ICIT, Machine Vision and Applications, Discover Artificial Intelligence, and Discover Sensors. My profiles are available on [Google Scholar](https://scholar.google.com/citations?user=3y6noxAAAAAJ&hl=en) and [ORCID](https://orcid.org/0009-0005-5281-0261).
 
 {% include selected_work.html %}
 
@@ -52,16 +52,16 @@ Activities
 ======
 
 2024–present
-- **08/2026** — First author: "DIPSAM: Diffusion Inpainting for Restoring Water-Loss Degradation in Scanning Acoustic Microscopy" accepted at *Computers and Electrical Engineering*. Many thanks to my research team. <img src="{{ '/images/new_symbol.png' | relative_url }}" alt="NEW" class="activity-new-symbol" />
+- **08/2026** — First author: "DIPSAM: Diffusion Inpainting for Restoring Water-Loss Degradation in Scanning Acoustic Microscopy" accepted at *Computers & Electrical Engineering* (IF = 5.5). Many thanks to my research team. <img src="{{ '/images/new_symbol.png' | relative_url }}" alt="NEW" class="activity-new-symbol" />
 - **08/2026** — Received the Blue Scholarship, Brain Korea 21 (BK21), Korean Government Scholarship Program 2026. <img src="{{ '/images/new_symbol.png' | relative_url }}" alt="NEW" class="activity-new-symbol" />
 - **07/2026** — Received FIRE Grant Scholarship 2026 - PKNU.
-- **07/2026** — Co-author: paper accepted at *Communication Medicine - Nature* (IF = 7.4). Many thanks to my research team.
+- **07/2026** — Co-author: paper accepted at *Communications Medicine (Nature Portfolio)* (IF = 7.4). Many thanks to my research team.
 - **07/2026** — First author: new preprint "Scanning Acoustic Image Restoration Using Diffusion for Automatic Reliable Inspection" — received Minor Revision decision.
 - **03/2026** — Presented a summary research report at the BK21 Conference, Pukyong National University.
 - **02/2026** — Received PKNU Global Scholar Challenge 2025
-- **01/2026** — First author: paper accepted at *IEEE Transactions on Industrial Informatics* (IF = 9.9). Many thanks to my co-authors and collaborators.
+- **01/2026** — First author: paper accepted at *IEEE Transactions on Industrial Informatics* (IF = 9.8). Many thanks to my co-authors and collaborators.
 - **12/2025** — Received Blue Scholarship 2025 - BK21 - PKNU
-- **10/2025** — First author: paper accepted at *Engineering Applications of Artificial Intelligence* (IF = 8.0). Many thanks to my co-authors and collaborators.
+- **10/2025** — First author: paper accepted at *Engineering Applications of Artificial Intelligence* (IF = 9.0). Many thanks to my co-authors and collaborators.
 - **09/2025** —  Graduated Master's program at Biomedical Department, Pukyong National University (GPA: 4.3/4.5). 
 - **07/2025** — Received FIRE Grant Scholarship 2025-1 - PKNU
 - **07/2025** — Participated in the Mechanical International Exhibition (Daegu, Korea).
