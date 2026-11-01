@@ -53,7 +53,7 @@ Activities
 
 2024–present
 - **10/2026** — First author: new preprint "WaFIR: Wavelet-Fourier Mixture-of-Experts with Subband-Adaptive Routing for Blind All-in-One Image Restoration" released on [arXiv](https://arxiv.org/abs/2610.29108) and included in the [Awesome All-in-One Image Restoration](https://github.com/Harbinzzy/All-in-One-Image-Restoration-Survey) paper list. Many thanks to my research team and collaborators. <img src="{{ '/images/new_symbol.png' | relative_url }}" alt="NEW" class="activity-new-symbol" />
-- **09/2026** — Invited as a research mentor for the Amity Science Research Program (Amity Regional High School, Connecticut, USA), guiding a high-school research project on deep-learning void segmentation in scanning acoustic microscopy images.
+- **09/2026** — Invited as a research mentor for the Amity Science Research Program (Amity Regional High School, Connecticut, USA).
 - **08/2026** — First author: "DIPSAM: Diffusion Inpainting for Restoring Water-Loss Degradation in Scanning Acoustic Microscopy" accepted at *Computers & Electrical Engineering* (IF = 5.5). Many thanks to my research team.
 - **08/2026** — Received the Blue Scholarship, Brain Korea 21 (BK21), Korean Government Scholarship Program 2026.
 - **07/2026** — Received FIRE Grant Scholarship 2026 - PKNU.
