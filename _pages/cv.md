@@ -113,10 +113,13 @@ Journal and Conference Publications
 
 [J8] Truong Tien Vo, Huu Sang Nguyen, <strong>Trong Nhan Nguyen</strong>**, Le Hai Tran, Quy Phuong Le, Tan Tien Nguyen, Jaeyeop Choi, Junghwan Oh. "Multimodal Smart Clothing with Haptic Feedback for Real-Time Muscle Activation Assessment in Self-Coaching Fitness," *IEEE Internet of Things Journal*, IF = 8.9. [Paper](https://ieeexplore.ieee.org/document/11666935)
 
-Manuscripts Under Review
+Preprints
 ------
 
-[C2] **Trong Nhan Nguyen**, Junghwan Oh, Truong Son Hy. "WaFIR: Wavelet-Fourier Mixture-of-Experts with Subband-Adaptive Routing for Blind All-in-One Image Restoration," *AAAI Conference on Artificial Intelligence (AAAI)*, 2027. [Code](https://anonymous.4open.science/r/WaFIR/README.md)
+[P1] **Trong Nhan Nguyen**, Vu Hoang Minh Doan, Thanh Dat Le, Truong Tien Vo, Thi Thu Ha Vu, Tan Hung Vo, Jaeyeop Choi, Junghwan Oh, Truong-Son Hy. "WaFIR: Wavelet-Fourier Mixture-of-Experts with Subband-Adaptive Routing for Blind All-in-One Image Restoration," *arXiv preprint arXiv:2610.29108*, 2026. [arXiv](https://arxiv.org/abs/2610.29108) [Code](https://anonymous.4open.science/r/WaFIR/README.md)
+
+Manuscripts Under Review
+------
 
 [J9] Vu Hoang Minh Doan, <strong>Trong Nhan Nguyen</strong>**, Thanh Dat Le, Junghwan Oh. "Effective Augmentation Diversity Predicts Template Element Replacement Effectiveness in XRD-Based Crystal Phase Classification," *Journal of Chemical Information and Modeling*, 2026.
 
@@ -161,7 +164,7 @@ Nov. 2025 – Present
 
 [1] Project: **Frequency-Space Learning for Blind Image Restoration** - [Code](https://anonymous.4open.science/r/WaFIR/README.md)
 - Proposed WaFIR, a Wavelet-Fourier mixture-of-experts with subband-adaptive routing that derives frequency priors from the input image to guide blind all-in-one restoration under unknown degradations (noise, haze, rain).
-- First-author manuscript under review at AAAI 2027.
+- First-author preprint on arXiv (2610.29108).
 
 [2] Project: **Mental Health Assessment study** - [Code](https://github.com/leduckhai/Wearable_LDF-FS)
 
