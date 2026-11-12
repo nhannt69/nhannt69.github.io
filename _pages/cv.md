@@ -221,6 +221,7 @@ HONORS, AWARDS, AND ACHIEVEMENTS
 ======
 
 - Pukyong National University Global Challenge Scholarship, 2025
+- Outstanding Graduate Student for Publication, Pukyong National University, 2026 (for DIPSAM, *Computers & Electrical Engineering*)
 - Blue Scholarship, Brain Korea 21 (BK21), Korean Government Scholarship Program, 2025 & 2026
 - Fire Grant Scholarship, 2025 & 2026
 - Scholarship, Pukyong National University, 2023
