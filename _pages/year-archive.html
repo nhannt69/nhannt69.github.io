@@ -8,12 +8,48 @@ redirect_from:
 ---
 
 {% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
+
+<style>
+.viblo-intro { margin-bottom: 1.2em; }
+.viblo-wrap { display: flex; gap: 28px; align-items: flex-start; flex-wrap: wrap; }
+.viblo-list { flex: 1 1 420px; min-width: 0; }
+.viblo-card { flex: 0 0 300px; }
+.viblo-card iframe { width: 300px; border: 1px solid #e3e3e3; border-radius: 6px; min-height: 360px; }
+.viblo-post { padding: 12px 0; border-bottom: 1px solid #eee; }
+.viblo-post a.viblo-title { font-weight: 600; text-decoration: none; }
+.viblo-post a.viblo-title:hover { text-decoration: underline; }
+.viblo-meta { font-size: 0.8em; color: #7a7a7a; margin-top: 4px; }
+.viblo-tag { display: inline-block; font-size: 0.72em; padding: 1px 7px; margin: 4px 4px 0 0;
+             border: 1px solid #d6d6d6; border-radius: 4px; color: #555; }
+@media (max-width: 760px) { .viblo-card { flex-basis: 100%; } .viblo-card iframe { width: 100%; } }
+</style>
+
+<p class="viblo-intro">I write technical articles in English and Vietnamese on
+<a href="https://viblo.asia/u/nhan0944" target="_blank" rel="noopener">Viblo</a>, a Vietnamese developer community,
+covering data analysis, OCR and Python tooling.</p>
+
+<div class="viblo-wrap">
+  <div class="viblo-list">
+    {% capture written_year %}'None'{% endcapture %}
+    {% for post in site.data.viblo_posts %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% if year != written_year %}
+        <h2 id="viblo-{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+        {% capture written_year %}{{ year }}{% endcapture %}
+      {% endif %}
+      <div class="viblo-post">
+        <a class="viblo-title" href="{{ post.url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+        <div class="viblo-meta">{{ post.date | date: "%b %-d, %Y" }} · {{ post.reading_time }} min read · {{ post.views }} views · Viblo</div>
+        <div>{% for t in post.tags %}<span class="viblo-tag">{{ t }}</span>{% endfor %}</div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="viblo-card">
+    <iframe id="frame" src="https://viblo.asia/embed/users/nhan0944" frameborder="0" title="Viblo profile"></iframe>
+  </div>
+</div>
+
 {% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
+  {% if forloop.first %}<h2 class="archive__subtitle">Posts on this site</h2>{% endif %}
   {% include archive-single.html %}
 {% endfor %}
